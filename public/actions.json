@@ -1,0 +1,138 @@
+{
+  "id": 1767098060469,
+  "message": "To within the grid layout, write all the letters of the English alphabet.",
+  "actions": {
+    "actions": [
+      {
+        "type": "create_node",
+        "id": "A",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "B",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "C",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "D",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "E",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "F",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "G",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "H",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "I",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "J",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "K",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "L",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "M",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "N",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "O",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "P",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "Q",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "R",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "S",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "T",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "U",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "V",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "W",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "X",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "Y",
+        "node_type": "generic"
+      },
+      {
+        "type": "create_node",
+        "id": "Z",
+        "node_type": "generic"
+      }
+    ]
+  }
+}

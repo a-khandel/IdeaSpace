@@ -1,0 +1,20 @@
+{
+  "name": "VoiceBoard",
+  "short_name": "VoiceBoard",
+  "description": "Voice-controlled diagram creation tool for VisionOS",
+  "start_url": "/",
+  "display": "standalone",
+  "capabilities": {
+    "microphone": {
+      "required": true,
+      "description": "Required for voice input and transcription"
+    }
+  },
+  "xr_main_scene": {
+    "default_size": {
+      "width": 1200,
+      "height": 800,
+      "depth": 25
+    }
+  }
+}
