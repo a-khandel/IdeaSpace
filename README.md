@@ -1,5 +1,5 @@
 # IdeaSpace  
-### _Put your thoughts on the board!_
+### _Put your thoughts on the whiteboard!_
 
 ---
 
