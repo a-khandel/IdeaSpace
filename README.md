@@ -48,22 +48,22 @@ Powered by a **Python backend**, a **React + Tldraw frontend**, and **OpenAI rea
 - **Visual Studio Code**
 ---
 
-## Installation Instructions
+# Installation Instructions
 
-### 1️⃣ Clone the Repository
+# 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/ideaspace.git
 cd IdeaSpace
 ```
-### 2️⃣ Install Frontend
+
+# 2️⃣ (Terminal 1)Create or edit this file in the root folder: .dev.vars
 
 ```bash
-cd ideaspace
-npm install
-npm run dev
+ANTHROPIC_API_KEY=your_api_key
 ```
 create a .env file in the root
+
 ```bash
 OPENAI_API_KEY=your_api_key
 VITE_SUPABASE_URL=URL
@@ -72,36 +72,49 @@ VITE_SUPABASE_ANON_KEY=ANON_KEY
 Start backend
 
 ```bash
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
 python3 api.py
-pnpm run dev:worker
+
 ```
 
-### 3️⃣ Install Backend
+# 3️⃣ (Terminal 2) Start worker
 
 ```bash
-cd server
-python install (install the required frameworks: flask, dotenv(if you created a virtual environment), openai)
+npm run dev:worker
 ```
-### Usage Instrsuctions 
 
-1. Start the ***Backend Server****
+# 4️⃣ (Terminal 3) Frontend Setup (XR/Simulator)
+
+```
+2. Start the Frontend server
 ```bash
-create a .env file in the server folder and add your openai API key
-python transcribe_api.py
+cd Ideaspace
+npm install
+XR_ENV=avp npm run dev
+
 ```
 
-2. Start the ***Frontend***
+# 5️⃣ (Terminal 4) Run WebSpatial Builder
+
 ```bash
-npm run dev
-```
-3. Open the local URL ***(usually http://localhost:5173)***.
-4. Click the microphone button and speak commands like:
-- ***"Create a box labeled Backend.”***
-- ***“Add a circle labeled API.”***
-- ***“Draw an arrow from Backend to API.”***
-5. Watch the AI generate shapes and connect them in real time.
+npx webspatial-builder run --base=http://localhost:5173/
 
-## Contributing Guidelines
+```
+
+Usage Instructions:
+
+- Ensure all four terminals are running
+- Open the WebSpatial preview window
+- Click the microphone button
+- Speak commands such as:
+- "Create a box labeled Backend"
+- "Add a circle labeled API"
+- "Draw an arrow from Backend to API"
+- Watch IdeaSpace generate diagrams in real time ✨
+
+# Contributing Guidelines
 
 Contributions are welcome!
 
