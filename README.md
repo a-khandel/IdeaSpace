@@ -3,7 +3,7 @@
 
 ---
 
-##Detailed Documentation
+## Detailed Documentation
 https://smiling-cap-7e6.notion.site/IdeaSpace-Brainstorming-Out-Loud-in-3D-with-AI-2dfdf2206e458012bfb3c211ab54f101
 
 ## Overview  
