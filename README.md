@@ -3,6 +3,9 @@
 
 ---
 
+##Detailed Documentation
+https://smiling-cap-7e6.notion.site/IdeaSpace-Brainstorming-Out-Loud-in-3D-with-AI-2dfdf2206e458012bfb3c211ab54f101
+
 ## Overview  
 IdeaSpace transforms **spoken commands** into **real-time whiteboard diagrams**, automatically generating shapes, workflows, and structured layouts.  
 Powered by a **Python backend**, a **React + Tldraw frontend**, and **OpenAI real-time models**, the system listens to your voice, interprets it, and produces clean diagrams instantly.
